@@ -7,18 +7,11 @@
 }
 
 body {
-  background-color: #fff;
-
-  width: 100%;
-  height: 100vh;
-  /* ocupa a tela toda */
   background-image: url('img/fundo.png');
-  /* substitua pelo nome da sua imagem */
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
-  /*position: relative;*/
-
+  height: auto; /* deixa o conteúdo expandir o body */
 }
 
 h1{
