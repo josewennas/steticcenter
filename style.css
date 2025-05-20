@@ -1,3 +1,5 @@
+
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +8,7 @@
 
 body {
   background-color: #fff;
-  margin-top: 8em;
+
   width: 100%;
   height: 100vh;
   /* ocupa a tela toda */
@@ -30,15 +32,13 @@ h1{
 .galeria {
   display: flex;
   flex-direction: column;
-  margin: 5%;
-  
-
+  gap: 20px; /* controla o espaço entre as imagens */
+  padding: 20px;
 }
 
 .galeria img {
   width: 100%;
-  padding: 2%;
   height: auto;
   display: block;
-
+  border-radius: 20px; /* se quiser cantos arredondados */
 }
