@@ -21,6 +21,9 @@ h1{
 
   
 }
+a{
+  text-decoration: none;
+}
 
 .galeria {
   margin-top: 200px;
